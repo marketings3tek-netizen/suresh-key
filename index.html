@@ -58,7 +58,7 @@
         .animate-marquee {
             display: flex;
             width: max-content;
-            animation: marquee 30s linear infinite;
+            animation: marquee 32s linear infinite;
         }
         .animate-marquee:hover {
             animation-play-state: paused;
@@ -189,80 +189,97 @@
         </div>
     </section>
 
-    <!-- PREMIUM LUXURY BRAND BADGES MARQUEE -->
+    <!-- REAL LUXURY CAR EMBLEMS MARQUEE (Authentic SVG Emblems) -->
     <section id="brands" class="py-10 bg-[#12141c] border-y border-zinc-800/80 overflow-hidden relative">
         <div class="max-w-6xl mx-auto px-4 mb-4 text-center">
             <span class="text-[11px] font-bold uppercase tracking-widest text-amber-400">Specializing in BMW, Mercedes-Benz, Audi, Volvo & Luxury Brands Across South India</span>
         </div>
         <div class="relative w-full overflow-hidden whitespace-nowrap">
-            <div class="animate-marquee flex items-center gap-10 text-xs sm:text-sm font-black tracking-wider text-zinc-200 uppercase">
-                <!-- BMW Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <div class="w-5 h-5 rounded-full bg-gradient-to-tr from-blue-600 to-sky-300 border border-white/40 flex items-center justify-center text-[9px] text-white font-bold">M</div>
-                    <span class="text-white tracking-widest">BMW</span>
+            <div class="animate-marquee flex items-center gap-10 text-xs sm:text-sm font-bold tracking-wider text-zinc-200 uppercase">
+                
+                <!-- BMW Roundel Emblem SVG -->
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-7 h-7" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="48" fill="#111" stroke="#ffffff" stroke-width="3"/>
+                        <path d="M50 2 A48 48 0 0 1 98 50 L50 50 Z" fill="#0066B2"/>
+                        <path d="M98 50 A48 48 0 0 1 50 98 L50 50 Z" fill="#ffffff"/>
+                        <path d="M50 98 A48 48 0 0 1 2 50 L50 50 Z" fill="#0066B2"/>
+                        <path d="M2 50 A48 48 0 0 1 50 2 L50 50 Z" fill="#ffffff"/>
+                        <circle cx="50" cy="50" r="48" fill="none" stroke="#e5e5e5" stroke-width="2"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">BMW</span>
                 </div>
-                <!-- Mercedes Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <div class="w-5 h-5 rounded-full bg-zinc-800 border border-zinc-500 flex items-center justify-center text-[10px] text-zinc-300 font-bold">⭐</div>
-                    <span class="text-white tracking-widest">Mercedes-Benz</span>
+
+                <!-- Mercedes-Benz Three-Pointed Star SVG -->
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-7 h-7 text-zinc-200" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="4"/>
+                        <polygon points="50,10 44,50 50,45 56,50" fill="currentColor"/>
+                        <polygon points="15,68 50,50 47,46 20,64" fill="currentColor"/>
+                        <polygon points="85,68 50,50 53,46 80,64" fill="currentColor"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">Mercedes-Benz</span>
                 </div>
-                <!-- Audi Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <div class="flex -space-x-1.5">
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                    </div>
-                    <span class="text-white tracking-widest">Audi</span>
+
+                <!-- Audi Four Rings SVG -->
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-12 h-6" viewBox="0 0 140 50" fill="none" stroke="#f59e0b" stroke-width="5" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="30" cy="25" rx="22" ry="20"/>
+                        <ellipse cx="55" cy="25" rx="22" ry="20"/>
+                        <ellipse cx="80" cy="25" rx="22" ry="20"/>
+                        <ellipse cx="105" cy="25" rx="22" ry="20"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">Audi</span>
                 </div>
-                <!-- Volvo Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <span class="text-indigo-400 font-bold text-xs">⨁</span>
-                    <span class="text-white tracking-widest">Volvo</span>
+
+                <!-- Volvo Iron Mark SVG -->
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-7 h-7" viewBox="0 0 100 100" fill="none" stroke="#3b82f6" stroke-width="6" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42"/>
+                        <line x1="72" y1="28" x2="92" y2="8" stroke="#3b82f6" stroke-width="6" stroke-linecap="round"/>
+                        <polyline points="72,8 92,8 92,28" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">Volvo</span>
                 </div>
-                <!-- Jaguar Land Rover Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <span class="text-emerald-400 font-bold text-xs">🐆</span>
-                    <span class="text-white tracking-widest">Jaguar Land Rover</span>
-                </div>
-                <!-- Porsche Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <span class="text-amber-500 font-bold text-xs">🛡️</span>
-                    <span class="text-white tracking-widest">Porsche</span>
-                </div>
-                <!-- Toyota Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <span class="text-zinc-400 font-bold text-xs">T</span>
-                    <span class="text-white tracking-widest">Toyota</span>
-                </div>
-                <!-- Hyundai Badge -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <span class="text-blue-500 font-bold text-xs">H</span>
-                    <span class="text-white tracking-widest">Hyundai</span>
+
+                <!-- Porsche Shield Emblem SVG -->
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-6 h-7" viewBox="0 0 80 100" fill="#fbbf24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 2 L75 15 V55 C75 75 55 92 40 98 C25 92 5 75 5 55 V15 Z" fill="#111" stroke="#fbbf24" stroke-width="4"/>
+                        <text x="40" y="32" fill="#fbbf24" font-size="12" font-weight="bold" text-anchor="middle">PORSCHE</text>
+                        <rect x="35" y="45" width="10" height="35" fill="#fbbf24"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">Porsche</span>
                 </div>
 
                 <!-- Loop repeat for smooth infinite scroll -->
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <div class="w-5 h-5 rounded-full bg-gradient-to-tr from-blue-600 to-sky-300 border border-white/40 flex items-center justify-center text-[9px] text-white font-bold">M</div>
-                    <span class="text-white tracking-widest">BMW</span>
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-7 h-7" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="48" fill="#111" stroke="#ffffff" stroke-width="3"/>
+                        <path d="M50 2 A48 48 0 0 1 98 50 L50 50 Z" fill="#0066B2"/>
+                        <path d="M98 50 A48 48 0 0 1 50 98 L50 50 Z" fill="#ffffff"/>
+                        <path d="M50 98 A48 48 0 0 1 2 50 L50 50 Z" fill="#0066B2"/>
+                        <path d="M2 50 A48 48 0 0 1 50 2 L50 50 Z" fill="#ffffff"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">BMW</span>
                 </div>
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <div class="w-5 h-5 rounded-full bg-zinc-800 border border-zinc-500 flex items-center justify-center text-[10px] text-zinc-300 font-bold">⭐</div>
-                    <span class="text-white tracking-widest">Mercedes-Benz</span>
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-7 h-7 text-zinc-200" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="4"/>
+                        <polygon points="50,10 44,50 50,45 56,50" fill="currentColor"/>
+                        <polygon points="15,68 50,50 47,46 20,64" fill="currentColor"/>
+                        <polygon points="85,68 50,50 53,46 80,64" fill="currentColor"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">Mercedes-Benz</span>
                 </div>
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <div class="flex -space-x-1.5">
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                        <span class="w-3.5 h-3.5 rounded-full border border-red-500 block"></span>
-                    </div>
-                    <span class="text-white tracking-widest">Audi</span>
-                </div>
-                <div class="flex items-center gap-2.5 bg-black/60 border border-zinc-800 px-4 py-2.5 rounded-xl shadow-md">
-                    <span class="text-indigo-400 font-bold text-xs">⨁</span>
-                    <span class="text-white tracking-widest">Volvo</span>
+                <div class="flex items-center gap-3 bg-black/60 border border-zinc-800 px-5 py-2.5 rounded-xl shadow-md">
+                    <svg class="w-12 h-6" viewBox="0 0 140 50" fill="none" stroke="#f59e0b" stroke-width="5" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="30" cy="25" rx="22" ry="20"/>
+                        <ellipse cx="55" cy="25" rx="22" ry="20"/>
+                        <ellipse cx="80" cy="25" rx="22" ry="20"/>
+                        <ellipse cx="105" cy="25" rx="22" ry="20"/>
+                    </svg>
+                    <span class="text-white font-extrabold tracking-widest">Audi</span>
                 </div>
             </div>
         </div>
